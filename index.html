@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8" />
+  <title>Ohio COVID-19 Data</title>
+  <meta name="description" content="Ohio COVID-19 Data Map" />
+  <meta name="author" content="Daniel Curtis" />
+
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+  <script src="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.js"></script>
+  <link
+    href="https://api.mapbox.com/mapbox-gl-js/v1.8.1/mapbox-gl.css"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" type="text/css" href="./styles.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png" />
+  <link rel="manifest" href="./site.webmanifest" />
+</head>
+
+<body>
+  <div id="map"></div>
+  <div class="map-overlay" id="features">
+    <h2>Ohio COVID-19 Data</h2>
+    <div id="pd">
+      <p>
+        1,137 cases, 276 hospitalizations, 19 deaths. Select a county for
+        breakdown.
+      </p>
+    </div>
+  </div>
+  <div class="map-overlay" id="legend"># of Cases</div>
+  <div class="map-overlay" id="footer">
+    Created by Daniel Curtis. Data from New York Times and Ohio Dept of Health.
+    <strong>Save a life, stay home.</strong>
+  </div>
+
+  <script type="text/javascript" src="scripts.js"></script>
+</body>
