@@ -1,10 +1,11 @@
 require('dotenv').config();
 
-mapboxgl.accessToken = API_TOKEN;
+mapboxgl.accessToken =
+  'pk.eyJ1IjoiY3VydGlzY29kZXMiLCJhIjoiY2s4YXQ4eWFoMDFtMDNmcWN6cHI2MXVodSJ9.naMzbYIfZ5xewcfvzIhFBA';
 
 var map = new mapboxgl.Map({
   container: 'map',
-  style: API_STYLE
+  style: 'mapbox://styles/curtiscodes/ck8b112ax1l8a1iprxolc5qko'
 });
 
 map.fitBounds([
