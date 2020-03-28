@@ -1,10 +1,10 @@
 require('dotenv').config();
 
-mapboxgl.accessToken = process.env.API_TOKEN;
+mapboxgl.accessToken = API_TOKEN;
 
 var map = new mapboxgl.Map({
   container: 'map',
-  style: process.env.API_STYLE
+  style: API_STYLE
 });
 
 map.fitBounds([
