@@ -1,5 +1,3 @@
-require('dotenv').config();
-
 mapboxgl.accessToken =
   'pk.eyJ1IjoiY3VydGlzY29kZXMiLCJhIjoiY2s4YXQ4eWFoMDFtMDNmcWN6cHI2MXVodSJ9.naMzbYIfZ5xewcfvzIhFBA';
 
